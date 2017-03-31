@@ -1,0 +1,15 @@
+{
+  "name": "osm-places-parser",
+  "version": "1.0.0",
+  "description": "Simple parser of Open Street Maps places",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["osm", "places"],
+  "author": "Piotr Walczyszyn @outofme",
+  "license": "MIT",
+  "dependencies": {
+    "xml-stream": "^0.4.5"
+  }
+}
