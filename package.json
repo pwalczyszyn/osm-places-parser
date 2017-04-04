@@ -4,7 +4,7 @@
   "description": "Simple parser of Open Street Maps places",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "/usr/local/bin/osmosis --read-pbf input.osm.pbf --tf accept-nodes place=city,town,village --write-xml - | node index.js"
   },
   "keywords": ["osm", "places"],
   "author": "Piotr Walczyszyn @outofme",

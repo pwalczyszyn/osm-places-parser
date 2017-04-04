@@ -1,7 +1,10 @@
 # osm-places-parser
 Simple parser of Open Street Maps places
 
-An example of [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) command that filters places:
+### Running
+
+Running it with [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) stdin/stdout:
+
 ```bash
-osmosis --read-pbf poland-latest.osm.pbf --tf accept-nodes place=city,town,village --write-xml poland-cities.osm
+osmosis --read-pbf input.osm.pbf --tf accept-nodes place=city,town,village --write-xml - | node index.js
 ```
