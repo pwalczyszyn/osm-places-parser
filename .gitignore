@@ -38,7 +38,7 @@ jspm_packages
 
 .DS_Store
 
-input.osm.xml
-input.osm.pbf
+*.osm.xml
+*.osm.pbf
 
 *.output.json
